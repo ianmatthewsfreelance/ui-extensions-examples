@@ -9,7 +9,7 @@ hubspot.extend((
 const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
-      uri: "https://app.invoiced.com/customers", // this is a relative link. Some links will be blocked since they don't allow iframing
+      uri: "https://app.invoiced.com/invoices/new", // this is a relative link. Some links will be blocked since they don't allow iframing
       height: 1000,
       width: 1000,
       title: 'Create Invoice',
