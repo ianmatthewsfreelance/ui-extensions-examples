@@ -6,6 +6,6 @@
     "module": {
       "file": "DisplayIframe.jsx"
     },
-    "objectTypes": [{ "name": "contacts" }]
+    "objectTypes": [{ "name": "companies" }]
   }
 }
