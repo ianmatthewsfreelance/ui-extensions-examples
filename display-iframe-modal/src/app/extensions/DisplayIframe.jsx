@@ -9,10 +9,10 @@ hubspot.extend((
 const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
-      uri: "https://www.freelancehubspotexpert.com/", // this is a relative link. Some links will be blocked since they don't allow iframing
+      uri: "https://app.invoiced.com", // this is a relative link. Some links will be blocked since they don't allow iframing
       height: 1000,
       width: 1000,
-      title: 'Ians Website',
+      title: 'Create Invoice',
       flush: true,
     });
   };
@@ -21,7 +21,7 @@ const Extension = ({ openIframe }) => {
     <>
       <Flex direction="column" align="start" gap="medium">
         <Text>
-          Reference my website below if needed for anything.
+          Create a website in Invoiced.com
         </Text>
 
         <Box>
