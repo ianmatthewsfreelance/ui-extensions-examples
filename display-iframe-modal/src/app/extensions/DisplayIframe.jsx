@@ -1,4 +1,4 @@
-import { Link, Button, Text, Box, Flex, hubspot } from "@hubspot/ui-extensions";
+import { Link, Button, Text, Box, Flex, hubspot } from "@ianmatthewsfreelance/ui-extensions";
 
 // Define the extension to be run within the Hubspot CRM
 hubspot.extend((
