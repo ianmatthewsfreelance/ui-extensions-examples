@@ -1,7 +1,7 @@
 {
   "type": "crm-card",
   "data": {
-    "title": "Iframe modal example card",
+    "title": "Create New Invoice",
     "location": "crm.record.tab",
     "module": {
       "file": "DisplayIframe.jsx"
