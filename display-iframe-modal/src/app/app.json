@@ -1,7 +1,7 @@
 {
-  "name": "Iframe modal example app",
-  "description": "This is a sample to show how to open a popup iframe modal from a custom card",
-  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "name": "Create Invoice",
+  "description": "Creates an invoice from invoiced.com",
+  "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
   "uid": "iframe_modal_example_app",
   "public": false,
   "extensions": {
